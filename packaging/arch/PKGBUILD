@@ -11,7 +11,7 @@ makedepends=('meson' 'ninja')
 checkdepends=('desktop-file-utils')
 optdepends=('ttf-jetbrains-mono-nerd: icons')
 source=("$url/releases/download/v$pkgver/$pkgname-$pkgver.tar.xz")
-sha256sums=('SKIP')
+sha256sums=('96ddca06b3e2223d4ecb304784e64230a57511329732d87c3855f5b703b9908a')
 
 build() {
   arch-meson "$pkgname-$pkgver" build -Dlayer_shell=enabled
