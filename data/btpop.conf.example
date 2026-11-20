@@ -1,0 +1,27 @@
+# btpop 配置示例：复制到 ~/.config/btpop/btpop.conf
+# 修改后执行 `btpop --quit && btpop --daemon` 生效（颜色和样式文件每次弹出时自动重新读取）
+
+[appearance]
+# 定义 @bg @surface @fg @subtle @muted @blue @red @green 的 GTK CSS 文件（@define-color）
+#colors = ~/.config/theme/current/waybar.css
+#style = ~/.config/btpop/style.css
+#width = 368
+
+[popup]
+# top-left | top | top-right | bottom-left | bottom | bottom-right | left | right | center
+#anchor = top-right
+#margin-top = 6
+#margin-right = 8
+#hide-on-focus-loss = true
+
+[bluetooth]
+# 有多个适配器时默认使用的那个：hci0、/org/bluez/hci0 或地址
+#adapter = hci0
+# 打开面板时自动搜索附近的设备，收起时停止（设置页里也可以切换）
+#scan-on-open = true
+# 显示没有名称的设备（多为周围的低功耗广播）
+#show-unnamed = false
+# 配对成功后自动信任设备，以后它可以自动重连
+#auto-trust = true
+# 作为配对代理处理 PIN 码和配对确认；同时运行 blueman-applet 等其他代理时可以关掉
+#agent = true

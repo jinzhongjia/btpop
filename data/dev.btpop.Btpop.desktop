@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Btpop
+GenericName=Bluetooth
+GenericName[zh_CN]=蓝牙
+Comment=Bluetooth devices and pairing
+Comment[zh_CN]=蓝牙设备与配对
+Exec=btpop --show
+Icon=bluetooth
+Terminal=false
+Categories=GTK;Settings;HardwareSettings;
+Keywords=bluetooth;bluez;pair;headset;蓝牙;配对;耳机;
+StartupNotify=false
